@@ -25,6 +25,4 @@ urlpatterns = [
     # path('', views.members,name='member'),
     path('', include('home.urls')),
 
-
-
 ]
