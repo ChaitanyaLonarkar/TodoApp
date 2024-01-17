@@ -13,7 +13,7 @@ urlpatterns = [
     path('tasks/update<str:pk>/', views.update,name='update'),
     path('tasks/delete<str:pk>/', views.delete,name='delete'),
     path('login/', views.login_page,name='login'),
-    path('register', views.register_page,name='register'),
+    path('register/', views.register_page,name='register'),
     path('logout/', views.logout_page,name='logout'),
 
 ]
